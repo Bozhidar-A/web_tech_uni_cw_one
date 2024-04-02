@@ -1,6 +1,7 @@
 package web_tech_uni_cw_one;
 
 public class Vehicle {
+	private int ID;
 	private String make;
 	private String model;
 	private int maxPassangers;
@@ -26,6 +27,14 @@ public class Vehicle {
 		this.gasUsage = gasu;
 		this.color = color;
 		this.gearboxType = gearboxType;
+	}
+	
+	public int getID() {
+		return ID;
+	}
+	
+	public void setID(int ID) {
+		this.ID = ID;
 	}
 
 	public String getMake() {
